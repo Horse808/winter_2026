@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/a0_02_leap_year.dir/src/a0_02_leap_year.cpp.o -o a0_02_leap_year  liba0_lib.a 

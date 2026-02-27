@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/a0_07_log_analyzer.dir/src/a0_07_log_analyzer.cpp.o -o a0_07_log_analyzer  liba0_lib.a 

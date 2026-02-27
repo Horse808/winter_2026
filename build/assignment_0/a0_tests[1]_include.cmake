@@ -1,0 +1,5 @@
+if(EXISTS "/home/horse/1/build/assignment_0/a0_tests[1]_tests.cmake")
+  include("/home/horse/1/build/assignment_0/a0_tests[1]_tests.cmake")
+else()
+  add_test(a0_tests_NOT_BUILT a0_tests_NOT_BUILT)
+endif()

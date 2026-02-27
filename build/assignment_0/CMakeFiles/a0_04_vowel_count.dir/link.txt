@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/a0_04_vowel_count.dir/src/a0_04_vowel_count.cpp.o -o a0_04_vowel_count  liba0_lib.a 

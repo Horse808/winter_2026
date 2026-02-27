@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/a0_01_temperature.dir/src/a0_01_temperature.cpp.o -o a0_01_temperature  liba0_lib.a 

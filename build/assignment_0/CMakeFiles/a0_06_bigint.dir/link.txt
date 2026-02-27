@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/a0_06_bigint.dir/src/a0_06_bigint.cpp.o -o a0_06_bigint  liba0_lib.a 

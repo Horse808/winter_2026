@@ -1,0 +1,13 @@
+1:A001Temperature.ConvertsAndFormats
+3:A002LeapYear.HandlesCommonRules
+5:A003RangeSum.ComputesArithmeticSum
+7:A004VowelCount.CountsVowelsCaseInsensitive
+9:A005ScoreStats.ComputesTopAndAverage
+11:A006BigInt.AddsLargeNumbers
+12:A006BigInt.HandlesLeadingZeros
+13:A007LogAnalyzer.SummarizesLogFile
+15:A008RaiiHandle.CopiesFileContent
+16:A008RaiiHandle.MissingInputFileFails
+17:A009TextPipeline.TrimUpperReplace
+19:A010RuleEngine.LevelAndMsRules
+21:A011CommandDispatcher.GrepCommand

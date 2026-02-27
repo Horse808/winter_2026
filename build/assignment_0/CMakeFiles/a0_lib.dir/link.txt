@@ -1,0 +1,2 @@
+/usr/bin/ar qc liba0_lib.a CMakeFiles/a0_lib.dir/src/a0_lib.cpp.o
+/usr/bin/ranlib liba0_lib.a

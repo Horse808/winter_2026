@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/a0_03_range_sum.dir/src/a0_03_range_sum.cpp.o -o a0_03_range_sum  liba0_lib.a 

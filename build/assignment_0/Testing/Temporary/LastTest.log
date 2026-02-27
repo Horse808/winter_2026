@@ -1,0 +1,802 @@
+Start testing: Feb 14 16:14 CST
+----------------------------------------------------------
+1/22 Testing: A001Temperature.ConvertsAndFormats
+1/22 Test: A001Temperature.ConvertsAndFormats
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A001Temperature.ConvertsAndFormats" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A001Temperature.ConvertsAndFormats" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A001Temperature.ConvertsAndFormats
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A001Temperature
+[ RUN      ] A001Temperature.ConvertsAndFormats
+/home/horse/1/assignment_0/tests/a0_tests.cpp:34: Failure
+Expected equality of these values:
+  rm_a0::SolveTemperature("0\n", ok)
+    Which is: ""
+  "32.00\n"
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:36: Failure
+Expected equality of these values:
+  rm_a0::SolveTemperature("100", ok)
+    Which is: ""
+  "212.00\n"
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:38: Failure
+Expected equality of these values:
+  rm_a0::SolveTemperature("-40", ok)
+    Which is: ""
+  "-40.00\n"
+
+[  FAILED  ] A001Temperature.ConvertsAndFormats (0 ms)
+[----------] 1 test from A001Temperature (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A001Temperature.ConvertsAndFormats
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A001Temperature.ConvertsAndFormats" end time: Feb 14 16:14 CST
+"A001Temperature.ConvertsAndFormats" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/22 Testing: A001Temperature.InvalidInput
+2/22 Test: A001Temperature.InvalidInput
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A001Temperature.InvalidInput" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A001Temperature.InvalidInput" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A001Temperature.InvalidInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A001Temperature
+[ RUN      ] A001Temperature.InvalidInput
+[       OK ] A001Temperature.InvalidInput (0 ms)
+[----------] 1 test from A001Temperature (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"A001Temperature.InvalidInput" end time: Feb 14 16:14 CST
+"A001Temperature.InvalidInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/22 Testing: A002LeapYear.HandlesCommonRules
+3/22 Test: A002LeapYear.HandlesCommonRules
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A002LeapYear.HandlesCommonRules" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A002LeapYear.HandlesCommonRules" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A002LeapYear.HandlesCommonRules
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A002LeapYear
+[ RUN      ] A002LeapYear.HandlesCommonRules
+/home/horse/1/assignment_0/tests/a0_tests.cpp:50: Failure
+Expected equality of these values:
+  rm_a0::SolveLeapYear("2000\n", ok)
+    Which is: ""
+  "YES\n"
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:52: Failure
+Expected equality of these values:
+  rm_a0::SolveLeapYear("1900", ok)
+    Which is: ""
+  "NO\n"
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:54: Failure
+Expected equality of these values:
+  rm_a0::SolveLeapYear("2004", ok)
+    Which is: ""
+  "YES\n"
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:56: Failure
+Expected equality of these values:
+  rm_a0::SolveLeapYear("2001", ok)
+    Which is: ""
+  "NO\n"
+
+[  FAILED  ] A002LeapYear.HandlesCommonRules (0 ms)
+[----------] 1 test from A002LeapYear (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A002LeapYear.HandlesCommonRules
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A002LeapYear.HandlesCommonRules" end time: Feb 14 16:14 CST
+"A002LeapYear.HandlesCommonRules" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/22 Testing: A002LeapYear.InvalidInput
+4/22 Test: A002LeapYear.InvalidInput
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A002LeapYear.InvalidInput" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A002LeapYear.InvalidInput" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A002LeapYear.InvalidInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A002LeapYear
+[ RUN      ] A002LeapYear.InvalidInput
+[       OK ] A002LeapYear.InvalidInput (0 ms)
+[----------] 1 test from A002LeapYear (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"A002LeapYear.InvalidInput" end time: Feb 14 16:14 CST
+"A002LeapYear.InvalidInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/22 Testing: A003RangeSum.ComputesArithmeticSum
+5/22 Test: A003RangeSum.ComputesArithmeticSum
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A003RangeSum.ComputesArithmeticSum" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A003RangeSum.ComputesArithmeticSum" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A003RangeSum.ComputesArithmeticSum
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A003RangeSum
+[ RUN      ] A003RangeSum.ComputesArithmeticSum
+/home/horse/1/assignment_0/tests/a0_tests.cpp:68: Failure
+Expected equality of these values:
+  rm_a0::SolveRangeSum("1 3\n", ok)
+    Which is: "0\n"
+  "6\n"
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:72: Failure
+Expected equality of these values:
+  rm_a0::SolveRangeSum("-2 1145141919810\n", ok)
+    Which is: "0\n"
+  "3936897706503538848\n"
+
+[  FAILED  ] A003RangeSum.ComputesArithmeticSum (0 ms)
+[----------] 1 test from A003RangeSum (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A003RangeSum.ComputesArithmeticSum
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A003RangeSum.ComputesArithmeticSum" end time: Feb 14 16:14 CST
+"A003RangeSum.ComputesArithmeticSum" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/22 Testing: A003RangeSum.InvalidInput
+6/22 Test: A003RangeSum.InvalidInput
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A003RangeSum.InvalidInput" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A003RangeSum.InvalidInput" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A003RangeSum.InvalidInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A003RangeSum
+[ RUN      ] A003RangeSum.InvalidInput
+[       OK ] A003RangeSum.InvalidInput (0 ms)
+[----------] 1 test from A003RangeSum (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"A003RangeSum.InvalidInput" end time: Feb 14 16:14 CST
+"A003RangeSum.InvalidInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/22 Testing: A004VowelCount.CountsVowelsCaseInsensitive
+7/22 Test: A004VowelCount.CountsVowelsCaseInsensitive
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A004VowelCount.CountsVowelsCaseInsensitive" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A004VowelCount.CountsVowelsCaseInsensitive" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A004VowelCount.CountsVowelsCaseInsensitive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A004VowelCount
+[ RUN      ] A004VowelCount.CountsVowelsCaseInsensitive
+/home/horse/1/assignment_0/tests/a0_tests.cpp:84: Failure
+Expected equality of these values:
+  rm_a0::SolveVowelCount("hello\n", ok)
+    Which is: "0\n"
+  "2\n"
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:88: Failure
+Expected equality of these values:
+  rm_a0::SolveVowelCount("AEIOU xyz\n", ok)
+    Which is: "0\n"
+  "5\n"
+
+[  FAILED  ] A004VowelCount.CountsVowelsCaseInsensitive (0 ms)
+[----------] 1 test from A004VowelCount (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A004VowelCount.CountsVowelsCaseInsensitive
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A004VowelCount.CountsVowelsCaseInsensitive" end time: Feb 14 16:14 CST
+"A004VowelCount.CountsVowelsCaseInsensitive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/22 Testing: A004VowelCount.EmptyLineIsZero
+8/22 Test: A004VowelCount.EmptyLineIsZero
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A004VowelCount.EmptyLineIsZero" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A004VowelCount.EmptyLineIsZero" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A004VowelCount.EmptyLineIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A004VowelCount
+[ RUN      ] A004VowelCount.EmptyLineIsZero
+[       OK ] A004VowelCount.EmptyLineIsZero (0 ms)
+[----------] 1 test from A004VowelCount (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"A004VowelCount.EmptyLineIsZero" end time: Feb 14 16:14 CST
+"A004VowelCount.EmptyLineIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/22 Testing: A005ScoreStats.ComputesTopAndAverage
+9/22 Test: A005ScoreStats.ComputesTopAndAverage
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A005ScoreStats.ComputesTopAndAverage" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A005ScoreStats.ComputesTopAndAverage" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A005ScoreStats.ComputesTopAndAverage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A005ScoreStats
+[ RUN      ] A005ScoreStats.ComputesTopAndAverage
+/home/horse/1/assignment_0/tests/a0_tests.cpp:105: Failure
+Expected equality of these values:
+  rm_a0::SolveScoreStats(input, ok)
+    Which is: ""
+  "top=bob 20\navg=10.00\n"
+With diff:
+@@ -1,1 +1,2 @@
+-""
++top=bob 20
++avg=10.00\n
+
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:106: Failure
+Value of: ok
+  Actual: false
+Expected: true
+
+[  FAILED  ] A005ScoreStats.ComputesTopAndAverage (0 ms)
+[----------] 1 test from A005ScoreStats (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A005ScoreStats.ComputesTopAndAverage
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A005ScoreStats.ComputesTopAndAverage" end time: Feb 14 16:14 CST
+"A005ScoreStats.ComputesTopAndAverage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/22 Testing: A005ScoreStats.InvalidInput
+10/22 Test: A005ScoreStats.InvalidInput
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A005ScoreStats.InvalidInput" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A005ScoreStats.InvalidInput" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A005ScoreStats.InvalidInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A005ScoreStats
+[ RUN      ] A005ScoreStats.InvalidInput
+[       OK ] A005ScoreStats.InvalidInput (0 ms)
+[----------] 1 test from A005ScoreStats (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"A005ScoreStats.InvalidInput" end time: Feb 14 16:14 CST
+"A005ScoreStats.InvalidInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/22 Testing: A006BigInt.AddsLargeNumbers
+11/22 Test: A006BigInt.AddsLargeNumbers
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A006BigInt.AddsLargeNumbers" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A006BigInt.AddsLargeNumbers" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A006BigInt.AddsLargeNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A006BigInt
+[ RUN      ] A006BigInt.AddsLargeNumbers
+/home/horse/1/assignment_0/tests/a0_tests.cpp:121: Failure
+Expected equality of these values:
+  rm_a0::SolveBigIntAdd("999\n1\n", ok)
+    Which is: ""
+  "1000\n"
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:125: Failure
+Expected equality of these values:
+  rm_a0::SolveBigIntAdd("123456789012345678901234567890\n987654321098765432109876543210\n", ok)
+    Which is: ""
+  "1111111110111111111011111111100\n"
+
+[  FAILED  ] A006BigInt.AddsLargeNumbers (0 ms)
+[----------] 1 test from A006BigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A006BigInt.AddsLargeNumbers
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A006BigInt.AddsLargeNumbers" end time: Feb 14 16:14 CST
+"A006BigInt.AddsLargeNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/22 Testing: A006BigInt.HandlesLeadingZeros
+12/22 Test: A006BigInt.HandlesLeadingZeros
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A006BigInt.HandlesLeadingZeros" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A006BigInt.HandlesLeadingZeros" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A006BigInt.HandlesLeadingZeros
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A006BigInt
+[ RUN      ] A006BigInt.HandlesLeadingZeros
+/home/horse/1/assignment_0/tests/a0_tests.cpp:131: Failure
+Expected equality of these values:
+  rm_a0::SolveBigIntAdd("000\n0000\n", ok)
+    Which is: ""
+  "0\n"
+
+[  FAILED  ] A006BigInt.HandlesLeadingZeros (0 ms)
+[----------] 1 test from A006BigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A006BigInt.HandlesLeadingZeros
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A006BigInt.HandlesLeadingZeros" end time: Feb 14 16:14 CST
+"A006BigInt.HandlesLeadingZeros" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/22 Testing: A007LogAnalyzer.SummarizesLogFile
+13/22 Test: A007LogAnalyzer.SummarizesLogFile
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A007LogAnalyzer.SummarizesLogFile" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A007LogAnalyzer.SummarizesLogFile" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A007LogAnalyzer.SummarizesLogFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A007LogAnalyzer
+[ RUN      ] A007LogAnalyzer.SummarizesLogFile
+/home/horse/1/assignment_0/tests/a0_tests.cpp:149: Failure
+Expected equality of these values:
+  rm_a0::SolveLogAnalyzer(path + "\n", ok)
+    Which is: "FAIL\n"
+  "INFO=2\nWARN=1\nERROR=1\navg=25.00\nmax=INFO 40\n"
+With diff:
+@@ -1,1 +1,5 @@
+-FAIL\n
++INFO=2
++WARN=1
++ERROR=1
++avg=25.00
++max=INFO 40\n
+
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:150: Failure
+Value of: ok
+  Actual: false
+Expected: true
+
+[  FAILED  ] A007LogAnalyzer.SummarizesLogFile (1 ms)
+[----------] 1 test from A007LogAnalyzer (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A007LogAnalyzer.SummarizesLogFile
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A007LogAnalyzer.SummarizesLogFile" end time: Feb 14 16:14 CST
+"A007LogAnalyzer.SummarizesLogFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/22 Testing: A007LogAnalyzer.MissingFileFails
+14/22 Test: A007LogAnalyzer.MissingFileFails
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A007LogAnalyzer.MissingFileFails" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A007LogAnalyzer.MissingFileFails" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A007LogAnalyzer.MissingFileFails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A007LogAnalyzer
+[ RUN      ] A007LogAnalyzer.MissingFileFails
+[       OK ] A007LogAnalyzer.MissingFileFails (0 ms)
+[----------] 1 test from A007LogAnalyzer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"A007LogAnalyzer.MissingFileFails" end time: Feb 14 16:14 CST
+"A007LogAnalyzer.MissingFileFails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/22 Testing: A008RaiiHandle.CopiesFileContent
+15/22 Test: A008RaiiHandle.CopiesFileContent
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A008RaiiHandle.CopiesFileContent" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A008RaiiHandle.CopiesFileContent" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A008RaiiHandle.CopiesFileContent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A008RaiiHandle
+[ RUN      ] A008RaiiHandle.CopiesFileContent
+/home/horse/1/assignment_0/tests/a0_tests.cpp:182: Failure
+Expected equality of these values:
+  s
+    Which is: ""
+  "hello world"
+
+[  FAILED  ] A008RaiiHandle.CopiesFileContent (1 ms)
+[----------] 1 test from A008RaiiHandle (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A008RaiiHandle.CopiesFileContent
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A008RaiiHandle.CopiesFileContent" end time: Feb 14 16:14 CST
+"A008RaiiHandle.CopiesFileContent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/22 Testing: A008RaiiHandle.MissingInputFileFails
+16/22 Test: A008RaiiHandle.MissingInputFileFails
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A008RaiiHandle.MissingInputFileFails" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A008RaiiHandle.MissingInputFileFails" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A008RaiiHandle.MissingInputFileFails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A008RaiiHandle
+[ RUN      ] A008RaiiHandle.MissingInputFileFails
+/home/horse/1/assignment_0/tests/a0_tests.cpp:191: Failure
+Expected equality of these values:
+  rm_a0::SolveRaiiCopy("/definitely/not/a/file out.bin\n", ok)
+    Which is: "OK\n"
+  "FAIL\n"
+
+/home/horse/1/assignment_0/tests/a0_tests.cpp:192: Failure
+Value of: ok
+  Actual: true
+Expected: false
+
+[  FAILED  ] A008RaiiHandle.MissingInputFileFails (0 ms)
+[----------] 1 test from A008RaiiHandle (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A008RaiiHandle.MissingInputFileFails
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A008RaiiHandle.MissingInputFileFails" end time: Feb 14 16:14 CST
+"A008RaiiHandle.MissingInputFileFails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/22 Testing: A009TextPipeline.TrimUpperReplace
+17/22 Test: A009TextPipeline.TrimUpperReplace
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A009TextPipeline.TrimUpperReplace" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A009TextPipeline.TrimUpperReplace" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A009TextPipeline.TrimUpperReplace
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A009TextPipeline
+[ RUN      ] A009TextPipeline.TrimUpperReplace
+/home/horse/1/assignment_0/tests/a0_tests.cpp:199: Failure
+Value of: ok
+  Actual: false
+Expected: true
+
+[  FAILED  ] A009TextPipeline.TrimUpperReplace (0 ms)
+[----------] 1 test from A009TextPipeline (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A009TextPipeline.TrimUpperReplace
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A009TextPipeline.TrimUpperReplace" end time: Feb 14 16:14 CST
+"A009TextPipeline.TrimUpperReplace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/22 Testing: A009TextPipeline.UnknownTransform
+18/22 Test: A009TextPipeline.UnknownTransform
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A009TextPipeline.UnknownTransform" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A009TextPipeline.UnknownTransform" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A009TextPipeline.UnknownTransform
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A009TextPipeline
+[ RUN      ] A009TextPipeline.UnknownTransform
+[       OK ] A009TextPipeline.UnknownTransform (0 ms)
+[----------] 1 test from A009TextPipeline (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"A009TextPipeline.UnknownTransform" end time: Feb 14 16:14 CST
+"A009TextPipeline.UnknownTransform" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/22 Testing: A010RuleEngine.LevelAndMsRules
+19/22 Test: A010RuleEngine.LevelAndMsRules
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A010RuleEngine.LevelAndMsRules" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A010RuleEngine.LevelAndMsRules" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A010RuleEngine.LevelAndMsRules
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A010RuleEngine
+[ RUN      ] A010RuleEngine.LevelAndMsRules
+/home/horse/1/assignment_0/tests/a0_tests.cpp:223: Failure
+Value of: ok
+  Actual: false
+Expected: true
+
+[  FAILED  ] A010RuleEngine.LevelAndMsRules (0 ms)
+[----------] 1 test from A010RuleEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A010RuleEngine.LevelAndMsRules
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A010RuleEngine.LevelAndMsRules" end time: Feb 14 16:14 CST
+"A010RuleEngine.LevelAndMsRules" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/22 Testing: A010RuleEngine.InvalidRule
+20/22 Test: A010RuleEngine.InvalidRule
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A010RuleEngine.InvalidRule" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A010RuleEngine.InvalidRule" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A010RuleEngine.InvalidRule
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A010RuleEngine
+[ RUN      ] A010RuleEngine.InvalidRule
+[       OK ] A010RuleEngine.InvalidRule (0 ms)
+[----------] 1 test from A010RuleEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"A010RuleEngine.InvalidRule" end time: Feb 14 16:14 CST
+"A010RuleEngine.InvalidRule" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/22 Testing: A011CommandDispatcher.GrepCommand
+21/22 Test: A011CommandDispatcher.GrepCommand
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A011CommandDispatcher.GrepCommand" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A011CommandDispatcher.GrepCommand" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A011CommandDispatcher.GrepCommand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A011CommandDispatcher
+[ RUN      ] A011CommandDispatcher.GrepCommand
+/home/horse/1/assignment_0/tests/a0_tests.cpp:240: Failure
+Value of: ok
+  Actual: false
+Expected: true
+
+[  FAILED  ] A011CommandDispatcher.GrepCommand (0 ms)
+[----------] 1 test from A011CommandDispatcher (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] A011CommandDispatcher.GrepCommand
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"A011CommandDispatcher.GrepCommand" end time: Feb 14 16:14 CST
+"A011CommandDispatcher.GrepCommand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/22 Testing: A011CommandDispatcher.UnknownCommand
+22/22 Test: A011CommandDispatcher.UnknownCommand
+Command: "/home/horse/1/build/assignment_0/a0_tests" "--gtest_filter=A011CommandDispatcher.UnknownCommand" "--gtest_also_run_disabled_tests"
+Directory: /home/horse/1/build/assignment_0
+"A011CommandDispatcher.UnknownCommand" start time: Feb 14 16:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = A011CommandDispatcher.UnknownCommand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from A011CommandDispatcher
+[ RUN      ] A011CommandDispatcher.UnknownCommand
+[       OK ] A011CommandDispatcher.UnknownCommand (0 ms)
+[----------] 1 test from A011CommandDispatcher (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"A011CommandDispatcher.UnknownCommand" end time: Feb 14 16:14 CST
+"A011CommandDispatcher.UnknownCommand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 14 16:14 CST

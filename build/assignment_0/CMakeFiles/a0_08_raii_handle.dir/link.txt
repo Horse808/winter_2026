@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/a0_08_raii_handle.dir/src/a0_08_raii_handle.cpp.o -o a0_08_raii_handle  liba0_lib.a 

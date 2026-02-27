@@ -1,0 +1,86 @@
+[
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_lib.dir/src/a0_lib.cpp.o -c /home/horse/1/assignment_0/src/a0_lib.cpp",
+  "file": "/home/horse/1/assignment_0/src/a0_lib.cpp",
+  "output": "CMakeFiles/a0_lib.dir/src/a0_lib.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_01_temperature.dir/src/a0_01_temperature.cpp.o -c /home/horse/1/assignment_0/src/a0_01_temperature.cpp",
+  "file": "/home/horse/1/assignment_0/src/a0_01_temperature.cpp",
+  "output": "CMakeFiles/a0_01_temperature.dir/src/a0_01_temperature.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_02_leap_year.dir/src/a0_02_leap_year.cpp.o -c /home/horse/1/assignment_0/src/a0_02_leap_year.cpp",
+  "file": "/home/horse/1/assignment_0/src/a0_02_leap_year.cpp",
+  "output": "CMakeFiles/a0_02_leap_year.dir/src/a0_02_leap_year.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_03_range_sum.dir/src/a0_03_range_sum.cpp.o -c /home/horse/1/assignment_0/src/a0_03_range_sum.cpp",
+  "file": "/home/horse/1/assignment_0/src/a0_03_range_sum.cpp",
+  "output": "CMakeFiles/a0_03_range_sum.dir/src/a0_03_range_sum.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_04_vowel_count.dir/src/a0_04_vowel_count.cpp.o -c /home/horse/1/assignment_0/src/a0_04_vowel_count.cpp",
+  "file": "/home/horse/1/assignment_0/src/a0_04_vowel_count.cpp",
+  "output": "CMakeFiles/a0_04_vowel_count.dir/src/a0_04_vowel_count.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_05_score_stats.dir/src/a0_05_score_stats.cpp.o -c /home/horse/1/assignment_0/src/a0_05_score_stats.cpp",
+  "file": "/home/horse/1/assignment_0/src/a0_05_score_stats.cpp",
+  "output": "CMakeFiles/a0_05_score_stats.dir/src/a0_05_score_stats.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_06_bigint.dir/src/a0_06_bigint.cpp.o -c /home/horse/1/assignment_0/src/a0_06_bigint.cpp",
+  "file": "/home/horse/1/assignment_0/src/a0_06_bigint.cpp",
+  "output": "CMakeFiles/a0_06_bigint.dir/src/a0_06_bigint.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_07_log_analyzer.dir/src/a0_07_log_analyzer.cpp.o -c /home/horse/1/assignment_0/src/a0_07_log_analyzer.cpp",
+  "file": "/home/horse/1/assignment_0/src/a0_07_log_analyzer.cpp",
+  "output": "CMakeFiles/a0_07_log_analyzer.dir/src/a0_07_log_analyzer.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_08_raii_handle.dir/src/a0_08_raii_handle.cpp.o -c /home/horse/1/assignment_0/src/a0_08_raii_handle.cpp",
+  "file": "/home/horse/1/assignment_0/src/a0_08_raii_handle.cpp",
+  "output": "CMakeFiles/a0_08_raii_handle.dir/src/a0_08_raii_handle.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0",
+  "command": "/usr/bin/c++ -DRM_A0_REFERENCE=0 -I/home/horse/1/assignment_0/include -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/include -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googletest -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/a0_tests.dir/tests/a0_tests.cpp.o -c /home/horse/1/assignment_0/tests/a0_tests.cpp",
+  "file": "/home/horse/1/assignment_0/tests/a0_tests.cpp",
+  "output": "CMakeFiles/a0_tests.dir/tests/a0_tests.cpp.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/horse/1/build/assignment_0/_deps/googletest-src/googlemock/include -I/home/horse/1/build/assignment_0/_deps/googletest-src/googlemock -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/include -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/horse/1/build/assignment_0/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/horse/1/build/assignment_0/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googlemock/include -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googlemock -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/include -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/horse/1/build/assignment_0/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/horse/1/build/assignment_0/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/horse/1/build/assignment_0/_deps/googletest-src/googletest/include -I/home/horse/1/build/assignment_0/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/horse/1/build/assignment_0/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/include -isystem /home/horse/1/build/assignment_0/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/horse/1/build/assignment_0/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

@@ -1,0 +1,36 @@
+A001Temperature.ConvertsAndFormats 0 0
+A001Temperature.InvalidInput 1 0.00294526
+A002LeapYear.HandlesCommonRules 0 0
+A002LeapYear.InvalidInput 1 0.00345782
+A003RangeSum.ComputesArithmeticSum 0 0
+A003RangeSum.InvalidInput 1 0.00300754
+A004VowelCount.CountsVowelsCaseInsensitive 0 0
+A004VowelCount.EmptyLineIsZero 1 0.00315509
+A005ScoreStats.ComputesTopAndAverage 0 0
+A005ScoreStats.InvalidInput 1 0.00314936
+A006BigInt.AddsLargeNumbers 0 0
+A006BigInt.HandlesLeadingZeros 0 0
+A007LogAnalyzer.SummarizesLogFile 0 0
+A007LogAnalyzer.MissingFileFails 1 0.00300691
+A008RaiiHandle.CopiesFileContent 0 0
+A008RaiiHandle.MissingInputFileFails 0 0
+A009TextPipeline.TrimUpperReplace 0 0
+A009TextPipeline.UnknownTransform 1 0.00301908
+A010RuleEngine.LevelAndMsRules 0 0
+A010RuleEngine.InvalidRule 1 0.00287461
+A011CommandDispatcher.GrepCommand 0 0
+A011CommandDispatcher.UnknownCommand 1 0.00298565
+---
+A001Temperature.ConvertsAndFormats
+A002LeapYear.HandlesCommonRules
+A003RangeSum.ComputesArithmeticSum
+A004VowelCount.CountsVowelsCaseInsensitive
+A005ScoreStats.ComputesTopAndAverage
+A006BigInt.AddsLargeNumbers
+A006BigInt.HandlesLeadingZeros
+A007LogAnalyzer.SummarizesLogFile
+A008RaiiHandle.CopiesFileContent
+A008RaiiHandle.MissingInputFileFails
+A009TextPipeline.TrimUpperReplace
+A010RuleEngine.LevelAndMsRules
+A011CommandDispatcher.GrepCommand
