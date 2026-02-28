@@ -38,9 +38,20 @@ uint16_t Crc16Ccitt(const uint8_t* data, size_t len) {
   // 参数：poly=0x1021, init=0xFFFF。
   // CRC 必须覆盖 version..payload 这些字节（即 SOF 之后、crc16 之前的全部内容）。
   // 单元测试依赖这一点。
-  (void)data;
-  (void)len;
-  return 0;
+  uint16_t crc=0xFFFF;
+  uint16_t poly=0x1021;
+  for(size_t i=0;i<len;++i){
+    crc^=(static_cast<uint16_t>(data[i])<<8);
+    for(int j=0;j<8;j++){
+      if(crc&0x8000){
+        crc=(crc<<1)^poly;
+      }
+      else{
+        crc<<=1;
+      }
+    }
+  }
+  return crc;
 }
 
 std::vector<uint8_t> Encode(const Frame& f) {
@@ -69,7 +80,6 @@ std::vector<uint8_t> Encode(const Frame& f) {
   uint16_t crc=Crc16Ccitt(out.data()+2,out.size()-2);
   AppendLe16(out,crc);
   // TODO: 替换为真实的 CRC。
-  AppendLe16(out, 0);
   return out;
 }
 
@@ -119,7 +129,7 @@ bool TryDecode(std::vector<uint8_t>& buffer, Frame& out) {
     buffer.erase(buffer.begin(),buffer.begin()+total_len);
     return true;
   }
-  
+  return false;
   // TODO: 流式解析器。
   // 需求（见 README + 测试）：
   // - buffer 是字节流，开头可能包含垃圾数据。
@@ -127,9 +137,6 @@ bool TryDecode(std::vector<uint8_t>& buffer, Frame& out) {
   // - 若不足以组成完整帧：返回 false，并保持 buffer 不变。
   // - 若候选帧 CRC 错误 / 长度非法：丢弃部分字节并继续搜索（必须避免死循环）。
   // - 成功时：填充 out，从 buffer 中擦除已消费的字节，并返回 true。
-  (void)buffer;
-  (void)out;
-  return false;
 }
 
 bool ParseHexBytes(const std::string& text, std::vector<uint8_t>& out) {
