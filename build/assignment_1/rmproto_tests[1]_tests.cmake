@@ -1,0 +1,7 @@
+add_test([=[RmProto.EncodeDecodeRoundTrip]=]  /home/horse/1/build/assignment_1/rmproto_tests [==[--gtest_filter=RmProto.EncodeDecodeRoundTrip]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[RmProto.EncodeDecodeRoundTrip]=]  PROPERTIES WORKING_DIRECTORY /home/horse/1/build/assignment_1 SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[RmProto.ResyncOnGarbage]=]  /home/horse/1/build/assignment_1/rmproto_tests [==[--gtest_filter=RmProto.ResyncOnGarbage]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[RmProto.ResyncOnGarbage]=]  PROPERTIES WORKING_DIRECTORY /home/horse/1/build/assignment_1 SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[RmProto.RejectBadCrc]=]  /home/horse/1/build/assignment_1/rmproto_tests [==[--gtest_filter=RmProto.RejectBadCrc]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[RmProto.RejectBadCrc]=]  PROPERTIES WORKING_DIRECTORY /home/horse/1/build/assignment_1 SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  rmproto_tests_TESTS RmProto.EncodeDecodeRoundTrip RmProto.ResyncOnGarbage RmProto.RejectBadCrc)

@@ -1,0 +1,2 @@
+/usr/bin/ar qc librmproto.a CMakeFiles/rmproto.dir/src/frame.cpp.o
+/usr/bin/ranlib librmproto.a

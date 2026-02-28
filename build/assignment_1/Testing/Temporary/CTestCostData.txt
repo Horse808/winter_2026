@@ -1,0 +1,4 @@
+RmProto.EncodeDecodeRoundTrip 4 0.000428069
+RmProto.ResyncOnGarbage 4 0.000777636
+RmProto.RejectBadCrc 2 0.00138186
+---

@@ -1,0 +1,5 @@
+if(EXISTS "/home/horse/1/build/assignment_1/rmproto_tests[1]_tests.cmake")
+  include("/home/horse/1/build/assignment_1/rmproto_tests[1]_tests.cmake")
+else()
+  add_test(rmproto_tests_NOT_BUILT rmproto_tests_NOT_BUILT)
+endif()

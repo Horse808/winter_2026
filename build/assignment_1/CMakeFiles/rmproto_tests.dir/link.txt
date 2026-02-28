@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/rmproto_tests.dir/tests/frame_tests.cpp.o -o rmproto_tests  librmproto.a lib/libgtest_main.a lib/libgtest.a 

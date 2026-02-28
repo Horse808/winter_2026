@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/rmproto_cli.dir/src/main.cpp.o -o rmproto_cli  librmproto.a 
