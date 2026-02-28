@@ -66,7 +66,8 @@ std::vector<uint8_t> Encode(const Frame& f) {
   AppendLe16(out, f.seq);
   out.push_back(f.type);
   out.insert(out.end(), f.payload.begin(), f.payload.end());
-
+  uint16_t crc=Crc16Ccitt(out.data()+2,out.size()-2);
+  AppendLe16(out,crc);
   // TODO: 替换为真实的 CRC。
   AppendLe16(out, 0);
   return out;
